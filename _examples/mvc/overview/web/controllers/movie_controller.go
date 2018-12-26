@@ -30,7 +30,7 @@ type MovieController struct {
 // 		results = append(results, viewmodels.Movie{movie})
 // 	}
 // 	return
-// }
+// }GetAll
 // otherwise just return the datamodels.
 func (c *MovieController) Get() (results []datamodels.Movie) {
 	return c.Service.GetAll()

@@ -40,5 +40,5 @@ func main() {
 	// http://localhost:8080/index.html
 	// http://localhost:8080/app.js
 	// http://localhost:8080/css/main.css
-	app.Run(iris.Addr(":8080"))
+	app.Run(iris.Addr(":8084"))
 }
